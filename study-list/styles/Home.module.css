@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  height: 50px;
+  background: #F55A5A;
+  
+}
+
+.studyitem {
+  display: flex;
+  justify-content: center;
+}
+
+.studyListHeaderContainer {
+  display: flex;
+}
+
+.studyGroupName {
+  background: transparent;
+  border: none;
+  width: 600px;
+  fill: none;
+  
+}
+
+.studyListItemBody {
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+}
