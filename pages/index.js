@@ -53,5 +53,11 @@ export default function Home(props) {
 
   //1. save state
   //2. CSS animation from video useRef()
-  //3. add a button to add / remyove <StudyItem>'s
+  //3. add a button to add / remove <StudyItem>'s
+
+
+  //features to be added:
+  //1. a pipeline for completed items
+  //2. a text editor in the <textarea>
+  //3. convert it into a explorer addon -- make a way to quickly add an item to a study list
   

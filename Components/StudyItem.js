@@ -88,7 +88,7 @@ export default function StudyItem(props) {
   return (
     <div>
       <div className={styles.studyListHeaderContainer}>
-        <button onClick={toggleOpen}> Toggle </button>
+        <button onClick={toggleOpen}> {open ? "Close" : "Open" } </button>
         <form className={styles.studyGroupName}>
             <input 
               name="studyGroupName"
